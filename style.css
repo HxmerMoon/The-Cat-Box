@@ -6,7 +6,7 @@
 /*Sets body margin to 0*/
 
 html,body{
-	scroll-behavior: smooth;
+	scroll-behavior: smooth !important;
 	overflow-x: hidden;
 	overflow-y: auto;
 }
