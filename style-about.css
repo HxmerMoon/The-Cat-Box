@@ -86,7 +86,7 @@
 }
 
 /*All Section*/
-.img-1:hover, .img-2:hover{
+.img-1:hover, .img-2:hover, .double-image:hover{
 	transform: scale(1.2);
 	z-index; 2;
 }
