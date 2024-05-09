@@ -1,0 +1,105 @@
+/*Section positioning*/
+.about{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100%;
+	background: rgb(234,188,236);
+	background: radial-gradient(circle, rgba(234,188,236,1) 0%, rgba(236,188,230,1) 43%, rgba(253,211,221,1) 100%);
+}
+
+.about-container{
+	margin: 90px 150px;;
+	width: 90%;
+}
+
+/*Section 1*/
+.img-1{
+	max-width: 60%;
+	margin: 15px 15px;
+	float: left;
+	border: solid 3px #0f0f0f;
+	border-radius: 10px;
+	box-shadow: -5px 5px 3px #999999;
+	transition:0.3s;
+}
+
+/*Section 2*/
+
+.img-2{
+	max-width: 60%;
+	margin: 15px 15px;
+	float: right;
+	border: solid 3px #0f0f0f;
+	border-radius: 10px;
+	box-shadow: 5px 5px 3px #999999;
+	transition:0.3s;
+}
+
+/*Section 3*/
+.double-image{
+	display: flex;
+	justify-content: center;
+	max-width: 40%;
+	margin: 15px 15px;
+	border: solid 3px #0f0f0f;
+	border-radius: 10px;
+	box-shadow: 5px 5px 3px #999999;
+	transition:0.3s;
+}
+
+#section-3{
+	display: flex;
+	flex-direction: column;
+}
+
+.double-image-cont{
+	max-width: 60%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	
+}
+
+#dbl-img{
+	margin-top: 20px;
+	text-align: center;
+	
+}
+/*All Section*/
+.img-1:hover, .img-2:hover{
+	transform: scale(1.2);
+	z-index; 2;
+}
+
+.text-box{
+	color: #000000;
+}
+
+.text-box h1{
+	float: none;
+	font-weight: 400;	
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.text-box h2{
+	font-weight: 400;
+	font-size: 1.5rem;
+	margin-bottom: 1rem;
+}
+
+.text-box p, span{
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+	font-size: 1.2rem;
+	margin-bottom: 1rem;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+.italic{
+	font-style: italic;
+}

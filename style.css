@@ -1,0 +1,144 @@
+/*Imports*/
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Silkscreen:wght@400;700&display=swap');
+
+/*html defaults*/
+/*Sets body margin to 0*/
+
+html,body{
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+body{
+	margin: 0;
+	background: url('media/image/cat-body-bg.jpg');
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-size: 300px;
+}
+
+/*Sets the Navigation bar on place*/
+/*Sets the Navigation bar's color*/
+.navdiv{
+	width: 100%;
+	position: sticky;
+	padding: 0px 15px; margin: 0px;
+	display:flex; align-items: center; justify-content: space-between;
+	padding-left: 15px;	padding-right: 15px;
+	background: rgb(255,187,242);
+	background: linear-gradient(126deg, rgba(255,187,242,1) 0%, rgba(234,198,255,1) 47%, rgba(169,178,255,1) 100%);
+}
+
+/*Removes the effects of anchor tag*/
+nav a{
+	color: inherit;
+	text-decoration: none;
+	
+}
+
+/*Removes the bullet of the list*/
+nav ul{	
+	list-style-type: none;
+}
+
+/*Puts margin to the side of <ul> flexbox*/
+.ul-flexbox{
+	margin: 0px 25px;
+	
+}
+
+/*Navigations design*/
+.ul-flexbox li{
+	display: inline-block;
+	padding: 0px 10px;
+}
+
+.ul-flexbox li a{
+	display: block;
+	padding: 5px 5px;	
+	background: linear-gradient(225deg, #ffffff, #e6e6e6);
+	box-shadow: -5px 5px 3px #999999;	
+	font-size: 20px;
+	font-family: "Silkscreen", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #FFFFFF;
+	
+    text-shadow:
+	-2px 0px 0 #262626,
+	2px 0px 0 #262626,
+	0px 2px 0 #262626,
+	0px -2px 0 #262626;
+	
+	transition: 0.3s;
+}
+
+.ul-flexbox li a:hover{
+	transform: scale(1.2);
+	z-index; 2;
+	border-radius: 10px;
+	background: linear-gradient(126deg, rgba(255,187,242,1) 0%, rgba(234,198,255,1) 47%, rgba(169,178,255,1) 100%);
+	border: solid 1px #000000;
+}
+
+/*Hero section defaults*/
+
+section *{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Silkscreen", sans-serif;
+	font-size: 18px;
+}
+/*Hero section design*/
+.hero{
+	width: 100%;
+	height: 100vh;
+	background:
+	linear-gradient(rgba(255,255,255,0.2), rgba(234,198,255,0.7)),
+	url('media/image/cat-hero-bg.jpg') no-repeat center / cover;
+	color: #000000;
+	margin-bottom: 30px;
+}
+/*section contents*/
+/*sizing and placement*/
+.container{
+	width: 90%;
+	height: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+
+}
+/*designs*/
+.container .info h1{
+	font-weight: 400;	
+	font-size: 3rem;
+	margin-bottom: 1 rem;
+}
+
+.container .info h2{
+	font-weight: 400;
+	font-size: 1.5rem;
+	margin-bottom: 2rem;
+}
+
+.container .info p{
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+	font-size: 1.2rem;
+	max-width: 60%;
+	margin-bottom: 1rem;
+}
+
+.container .info ul{
+	padding-left:  1rem;
+}
+
+.container .info li{
+	font-family: "Open Sans", sans-serif;	
+	font-weight: 400;
+}
